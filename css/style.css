@@ -1,0 +1,1214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+body{
+    margin: 0%
+}
+
+header .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+
+header #icon{
+    max-width: 40px;
+}
+
+header nav .logo img{
+    max-width: 60px;
+    transition: 4s;
+}
+    
+header nav .logo img:hover{
+    transform: scale(1.1);
+}
+
+/* HEADER */ 
+header li{
+    font-family: 'Bree Serif', serif;
+}
+
+.intro p{
+    font-family: 'Abhaya Libre', serif;
+    padding: 0px 0px 80px 150px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.intro h3{
+    font-family: 'Abhaya Libre', serif;
+    color:#ebc137;
+    padding: 10px 0px 0px 200px;
+    margin-bottom: 0%;
+}
+
+.intro h2{
+    font-family: 'Abhaya Libre', serif;
+    padding: 0px 0px 0px 100px;
+    margin-bottom: 0%;
+}
+
+header .intro h1{
+    font-family: 'Lobster', cursive;
+    font-size: 20%;
+}
+
+header .navbar .texto-nav h3{
+    font-family: 'Abhaya Libre', serif;
+    font-size: 20%;
+    margin-bottom: 0%;
+    color: white;
+}
+
+header .navbar .texto-nav h5{
+    font-family: 'Abhaya Libre', serif;
+    font-size: 15%;
+    color: #ebc137;
+    margin-bottom: 0%;
+}
+
+header .navbar .texto-nav{
+    padding: 0px 8px;
+    font-size: 90px;
+}
+
+header{
+    background: url(../img/Portada.jpg);
+}
+
+
+header nav .logo img{
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+header .container{
+    padding: 0%;
+    margin: 0%;
+}
+
+header .container nav{
+    padding: 10px;
+    position: fixed;
+    background-color: #16161698;
+    width: 100%;
+    float: left;
+}    
+
+header .container nav ul{
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+
+header .container nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+header .container nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+}
+
+header .container nav ul li a:hover{
+    color: #ebc137;
+    border-bottom: 2px solid #ebc137
+}
+
+header .intro{
+    margin-top: 0px;
+}
+
+header .container .intro p{
+    color: white;
+    font-size: 34px;
+    margin-top: 0;
+}
+
+header .container .intro h1{
+    color: white;
+    font-size: 120px;
+    padding-top: 120px;
+    padding-left: 70px;
+    padding-bottom: 100px;
+}
+
+header .container .intro h2{
+    color: white;
+    font-size: 60px;
+    margin-top: 0;
+}
+
+header .intro h1 h2 h3 p{
+    padding: 50px;
+    margin: 20px;
+}
+
+header .logo{
+    transition: .6s;
+}
+
+header .logo:hover{
+    transform: rotate(360deg);
+}
+
+header h1 p{
+    position: absolute;
+}
+
+.texto-nav{
+    transition: .4s;
+}
+
+.texto-nav:hover{
+    transform: translatex(15px);
+}
+
+/* FIN HEADER */
+
+/* INICIO PERFIL */
+#perfil h1{
+    font-family: 'Bree Serif', serif;
+}
+
+#perfil p{
+    color: white;
+    text-align: initial;
+    font-family: 'Abhaya Libre', serif;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+#perfil h2{
+    color: white;
+    text-align: right;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 80px;
+}
+
+#perfil h3{
+    color: white;
+    text-align: right;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+#perfil h4{
+    color: white;
+    text-align: right;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+
+#perfil{
+    width: 100%;
+    background: url(../img/Perfil-Fondo.png) no-repeat;
+}
+
+#perfil .container h1{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    margin-bottom: 0%;
+}
+
+#perfil .row .col-perfil{
+    width: 50%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#perfil .row .col-perfil img{
+    border-radius: 65%;
+    margin: 20px;
+    border-color: white;
+    width: 80%;
+    border: 10px solid rgb(255, 255, 255);
+    transition: 1s;
+}
+
+#perfil .row .col-perfil img:hover{
+    transform: scale(1.2);
+}
+
+/* FIN PERFIL */
+
+/* EXPERIENCIA */
+#experiencia h1{
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 80px;
+}
+
+#experiencia img{
+    width: 150px;
+    transition: 1s;
+}
+#experiencia img:hover{
+    transform: scale(1.2);
+}
+
+#experiencia #abuelita{
+    width: 200px;
+}
+
+#experiencia{
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: url(../img/fondo-2.png) no-repeat;
+}
+
+#experiencia h3{
+    font-family: 'Bree Serif', serif;
+    color: white;
+}
+
+#experiencia p{
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+}
+
+#experiencia .col-Expe{
+    padding: 50px;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* FIN EXPERIENCIA */
+
+
+/* PROYECTOS */
+#proyectos h1{
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+#proyectos{
+    background: url(../img/Perfil-Fondo.png) ;
+    padding: 10px;
+}
+
+.menu-proyecto .nav-tabs a{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px 14px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.cdr .prod-cdr{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.col-md-4{
+    padding: 5px;
+}
+
+.menu-proyecto .tab-content .tab-pane-d img{
+    max-width: 350px;
+}
+
+.menu-proyecto .nav-tabs{
+    border-bottom: 0px solid transparent;
+}
+
+.menu-proyecto .nav-tabs a.active{
+    color: #000000;
+    background: #ffffff;
+}
+
+#diseños img{
+    max-width: 500px;
+}
+
+#proyectos h2{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#proyectos h3{
+    color: white;
+    padding: 10px;
+}
+/* FIN PROYECTOS */
+
+/* HABILIDADES */
+#habilidades .habi{
+    display: block;
+}
+
+#habilidades h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 138px;
+    color: white;
+    margin: 0%;
+}
+
+#habilidades h2{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#habilidades h3{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#habilidades img{
+    width: 100px;
+    transition: 1s;
+}
+
+#habilidades img:hover{
+    transform: scale(1.1);
+}
+
+#habilidades{
+    width: 100%;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    background: url(../img/fondo-2.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position-y: top ;
+}
+
+#habilidades .row .col-habilidades{
+    width: 18%;
+    display: inline-block;
+    padding-top: 0px;
+}
+/* FIN HABILIDADES */
+
+/* ESTUDIOS */
+#estudios{
+    background: url(../img/Perfil-Fondo.png) no-repeat;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+#estudios h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+
+#estudios h3{
+    font-family: 'Bree Serif', serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#estudios p{
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+    text-align: center;
+}
+
+#estudios #departamental{
+    max-width: 145px;
+}
+
+#estudios #sena{
+    border-radius: 80px;
+    max-width: 130px;
+
+}
+
+#estudios #ingles{
+    max-width: 270px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+
+#estudios .col-estudios img{
+    max-width: 100px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;   
+}
+
+#estudios .col-estudios img:hover{
+    transform: scale(1.2);
+}
+
+#estudios #descarga{
+    max-width: 300px;
+}
+
+#estudios .col-estudios{
+    padding: 30px;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+/* FOOTER */
+footer{
+    background: #070707;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer a img{
+    max-width: 20px;
+}
+
+footer #logof{
+    width: 40%;
+}
+
+footer p{
+    color: white;
+}
+
+footer h2{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 50px;
+}
+
+footer h3{
+    color: white;
+}
+
+footer .col-md-4 img{
+    width: 20px;
+}
+
+#logof{
+    transition: 1s;
+}
+
+#logof:hover{
+    transform: rotate(360deg);
+}
+
+/* FIN FOOTER */
+
+
+.modal .modal-dialog{
+    max-width: 450px;
+}
+
+
+/* CÓDIGO RESPONSIVE TABLET  */
+@media screen and (max-width:990px) and (min-width:768px){
+    
+}
+
+/* CÓDIGO RESPONSIVE PHONE */
+@media screen and (max-width:600px) and (min-width:320px){
+    #perfil{
+        flex-direction: column;
+    }
+}
+
+
+/* VARIANTES COLOR */
+
+#btn-elemento{
+    position: fixed;
+    z-index: 11;
+    top: 245px;
+    right: -53px;
+    transform: rotate(-90deg);
+    background: #064064;
+    color: white;
+    padding: 13px 49px;
+    border: none;
+    transition: .4s;
+    border-radius: 20px 0px 0px;
+}
+
+#btn-elemento.active{
+    right: 169px;
+    transition: .4s;
+}
+
+#cont-colors{
+    background: rgb(0, 0, 0);
+    position: fixed;
+    z-index: 11;
+    top: 197px;
+    right: -273px;
+    padding: 36px 25px;
+    transition: .4s;
+    color: white;
+}
+
+#cont-colors.active{
+    right: 0;
+    transition: .4s;
+}
+
+#cont-colors #white{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 252, 252);
+    border: none;
+}
+
+#cont-colors #yellow{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffd700;
+    border: none;
+}
+#cont-colors #green{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #7ef3b1;
+    border: none;
+}
+#cont-colors #purple{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: purple;
+    border: none;
+}
+#cont-colors #red{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+}
+#cont-colors #original{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #6e6c69;
+    border: none;
+}
+
+#cont-colors h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* variantes de temas */
+
+/* WHITE */
+#body.white header .container nav{
+    background-color: #fffefeaa;
+}
+
+#body.white header .container nav ul li a{
+    color: #000000;
+}
+
+#body.white header .container nav ul li a:hover{
+    border-bottom: 2px solid #000
+}
+
+#body.white header .navbar .texto-nav h3{
+    color: #000000;
+}
+
+#body.white header .navbar .texto-nav h5{
+    color: #272727;
+}
+
+#body.white #btn-elemento{
+    background: #ffffff;
+    color: black;
+}
+
+#body.white header{
+    background: url(../img/Portada-Blanca.png);
+}
+
+#body.white header .container .intro h1{
+    color: black;
+}
+
+#body.white header .container .intro h2{
+    color: black;
+}
+
+#body.white header .container .intro p{
+    color: black;
+}
+
+#body.white .intro h3{
+    color: #272727;
+}
+
+#body.white #perfil{
+    background: #151515;
+}
+
+#body.white  #experiencia{
+    background: whitesmoke;
+}
+
+#body.white #experiencia h1{
+    color: black;
+}
+
+#body.white #experiencia .col-Expe{
+    border: 1px solid black;
+}
+
+#body.white #experiencia h3{
+    color: black;
+}
+
+#body.white #experiencia p{
+    color: black;
+}
+
+#body.white #proyectos{
+    background: #151515;
+}
+
+#body.white #habilidades{
+    background: whitesmoke;
+}
+
+#body.white #habilidades h2{
+    color: black;
+}
+
+#body.white #habilidades h1{
+    color: black;
+}
+
+#body.white #habilidades h3{
+    color: black;
+}
+
+#body.white #estudios{
+    background: #151515;
+}
+
+#body.white footer{
+    background: whitesmoke;
+}
+
+#body.white footer h3{
+    color: black;
+}
+
+#body.white footer h2{
+    color: black;
+}
+
+#body.white footer p{
+    color: black;
+}
+
+/* FIN WHITE */
+
+
+/* YELLOW */
+#body.yellow header .container nav{
+    background-color: #ffd700a6;
+}
+
+#body.yellow header .container nav ul li a{
+    color: #000000;
+}
+
+#body.yellow header .container nav ul li a:hover{
+    border-bottom: 2px solid rgb(255, 254, 254);
+    color: white;
+}
+
+#body.yellow header .navbar .texto-nav h3{
+    color: #000000;
+}
+
+#body.yellow header .navbar .texto-nav h5{
+    color: #272727;
+}
+
+#body.yellow #btn-elemento{
+    background: #ffd700;
+    color: black;
+}
+
+#body.yellow header{
+    background: url(../img/Portada-Blanca.png);
+}
+
+#body.yellow header .container .intro h1{
+    color: rgb(0, 0, 0);
+}
+
+#body.yellow header .container .intro h2{
+    color: black;
+}
+
+#body.yellow header .container .intro p{
+    color: black;
+}
+
+#body.yellow .intro h3{
+    color: #ffffff;
+}
+
+#body.yellow #perfil{
+    background: #0c0c0c;
+}
+
+#body.yellow #perfil h3{
+    color: #ffd700;
+}
+
+#body.yellow  #experiencia{
+    background: whitesmoke;
+}
+
+#body.yellow #experiencia h1{
+    color: black;
+}
+
+#body.yellow #experiencia .col-Expe{
+    border: 1px solid black;
+}
+
+#body.yellow #experiencia h3{
+    color: black;
+}
+
+#body.yellow #experiencia p{
+    color: black;
+}
+
+#body.yellow #proyectos{
+    background: #0c0c0c;
+}
+
+#body.yellow .menu-proyecto .nav-tabs a.active{
+    color: #000000;
+    background: #c5a90b;
+}
+
+#body.yellow .menu-proyecto .nav-tabs a:hover{
+    background-color: #ffd700;
+    color: black;
+}
+
+#body.yellow #habilidades{
+    background: whitesmoke;
+}
+
+#body.yellow #habilidades h2{
+    color: black;
+}
+
+#body.yellow #habilidades h1{
+    color: black;
+}
+
+#body.yellow #habilidades h3{
+    color: black;
+}
+
+#body.yellow #estudios{
+    background: #0c0c0c;
+}
+
+#body.yellow footer{
+    background: #c5a90b;
+}
+
+#body.yellow footer h3{
+    color: black;
+}
+
+#body.yellow footer h2{
+    color: black;
+}
+
+#body.yellow footer p{
+    color: black;
+}
+
+/* FIN YELLOW */
+
+
+/* GREEN */
+#body.green header .container nav{
+    background-color: #7ef3b1a6;
+}
+
+#body.green header .container nav ul li a{
+    color: #000000;
+}
+
+#body.green header .container nav ul li a:hover{
+    border-bottom: 2px solid #165e35;
+}
+
+#body.green header .navbar .texto-nav h3{
+    color: #000000;
+}
+
+#body.green header .navbar .texto-nav h5{
+    color: #272727;
+}
+
+#body.green #btn-elemento{
+    background: #7ef3b1;
+    color: black;
+}
+
+#body.green header{
+    background: url(../img/Portada-Verde.png);
+}
+
+#body.green .intro h3{
+    color: #000000;
+}
+
+#body.green #perfil{
+    background: #0c0c0c;
+}
+
+#body.green #perfil h3{
+    color: #7ef3b1;
+}
+
+#body.green  #experiencia{
+    background: #7ef3b1;
+}
+
+#body.green #experiencia h1{
+    color: black;
+}
+
+#body.green #experiencia .col-Expe{
+    border: 1px solid #165e35;
+}
+
+#body.green #experiencia h3{
+    color: black;
+}
+
+#body.green #experiencia p{
+    color: black;
+}
+
+#body.green #proyectos{
+    background: #0c0c0c;
+}
+
+#body.green .menu-proyecto .nav-tabs a.active{
+    color: #ffffff;
+    background: #165e35;
+}
+
+#body.green .menu-proyecto .nav-tabs a:hover{
+    background-color: #7ef3b1;
+    color: black;
+}
+
+#body.green #habilidades{
+    background: #7ef3b1;
+}
+
+#body.green #habilidades h2{
+    color: black;
+}
+
+#body.green #habilidades h1{
+    color: black;
+}
+
+#body.green #habilidades h3{
+    color: black;
+}
+
+#body.green #estudios{
+    background: #0c0c0c;
+}
+
+#body.green footer{
+    background: #165e35;
+}
+
+/* FIN GREEN */
+
+
+/* PURPLE */
+
+#body.purple header .container nav{
+    background-color: #800080a6;
+}
+
+#body.purple header .container nav ul li a{
+    color: #ffffff;
+}
+
+#body.purple header .container nav ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+#body.purple header .navbar .texto-nav h3{
+    color: #f8f8f8;
+}
+
+#body.purple header .navbar .texto-nav h5{
+    color: #ffffff;
+}
+
+#body.purple #btn-elemento{
+    background: purple;
+    color: rgb(255, 255, 255);
+}
+
+#body.purple header{
+    background: url(../img/Portada-Blanca.png);
+}
+
+#body.purple header .container .intro h1{
+    color: black;
+}
+
+#body.purple header .container .intro h2{
+    color: black;
+}
+
+#body.purple header .container .intro p{
+    color: rgb(31, 31, 31);
+}
+
+#body.purple .intro h3{
+    color: #800080;
+}
+
+#body.purple #perfil{
+    background: #3f003f;
+}
+
+#body.purple #perfil h3{
+    color: #ca00ca;
+}
+
+#body.purple  #experiencia{
+    background: whitesmoke;
+}
+
+#body.purple #experiencia h1{
+    color: black;
+}
+
+#body.purple #experiencia .col-Expe{
+    border: 1px solid #800080;
+}
+
+#body.purple #experiencia h3{
+    color: black;
+}
+
+#body.purple #experiencia p{
+    color: black;
+}
+
+#body.purple #proyectos{
+    background: #3f003f;
+}
+
+#body.purple .menu-proyecto .nav-tabs a.active{
+    color: #ffffff;
+    background: #800080;
+}
+
+#body.purple .menu-proyecto .nav-tabs a:hover{
+    background-color: #ca00ca;
+    color: rgb(255, 255, 255);
+}
+
+#body.purple #habilidades{
+    background: whitesmoke;
+}
+
+#body.purple #habilidades h2{
+    color: black;
+}
+
+#body.purple #habilidades h1{
+    color: black;
+}
+
+#body.purple #habilidades h3{
+    color: black;
+}
+
+#body.purple #estudios{
+    background: #3f003f;
+}
+
+#body.purple footer{
+    background: #800080;
+}
+
+/* FIN PURPLE */
+
+/* red */
+#body.red header .container nav{
+    background-color: #ff0000a6;
+}
+
+#body.red header .container nav ul li a{
+    color: #ffffff;
+}
+
+#body.red header .container nav ul li a:hover{
+    border-bottom: 2px solid #000000;
+    color: black;
+}
+
+#body.red header .navbar .texto-nav h3{
+    color: #f8f8f8;
+}
+
+#body.red header .navbar .texto-nav h5{
+    color: #ffffff;
+}
+
+#body.red #btn-elemento{
+    background: red;
+    color: rgb(255, 255, 255);
+}
+
+#body.red header{
+    background: url(../img/Portada-Blanca.png);
+}
+
+#body.red header .container .intro h1{
+    color: black;
+}
+
+#body.red header .container .intro h2{
+    color: black;
+}
+
+#body.red header .container .intro p{
+    color: rgb(31, 31, 31);
+}
+
+#body.red .intro h3{
+    color: #ff0000;
+}
+
+#body.red #perfil{
+    background: #bf1111;
+}
+
+#body.red #perfil h3{
+    color: rgb(0, 0, 0);
+}
+
+#body.red  #experiencia{
+    background: whitesmoke;
+}
+
+#body.red #experiencia h1{
+    color: black;
+}
+
+#body.red #experiencia .col-Expe{
+    border: 1px solid #000000;
+}
+
+#body.red #experiencia h3{
+    color: black;
+}
+
+#body.red #experiencia p{
+    color: black;
+}
+
+#body.red #proyectos{
+    background: #bf1111;
+}
+
+#body.red .menu-proyecto .nav-tabs a.active{
+    color: #000000;
+    background: #ffffff;
+}
+
+#body.red .menu-proyecto .nav-tabs a:hover{
+    background-color: #fa6464;
+    color: rgb(255, 255, 255);
+}
+
+#body.red #habilidades{
+    background: whitesmoke;
+}
+
+#body.red #habilidades h2{
+    color: black;
+}
+
+#body.red #habilidades h1{
+    color: black;
+}
+
+#body.red #habilidades h3{
+    color: black;
+}
+
+#body.red #estudios{
+    background: #bf1111;
+}
+
+#body.red footer{
+    background: whitesmoke;
+}
+
+#body.red footer h3{
+    color: black;
+}
+
+#body.red footer h2{
+    color: black;
+}
+
+#body.red footer p{
+    color: black;
+}
+/* fin red */
